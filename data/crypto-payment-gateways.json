@@ -26,9 +26,9 @@
     "study_cohort": "true = part of the published 50-gateway August 2026 study; false = additional gateway in the living dataset"
   },
   "counts": {
-    "total": 93,
+    "total": 94,
     "study_cohort": 50,
-    "additional": 43
+    "additional": 44
   },
   "summary": {
     "study_cohort": {
@@ -51,23 +51,23 @@
       "verified": 43
     },
     "full_dataset": {
-      "n": 93,
+      "n": 94,
       "custodial": 60,
-      "non_custodial": 23,
+      "non_custodial": 24,
       "self_hosted": 5,
       "hybrid": 5,
-      "pct_custodial": 65,
-      "pct_non_custodial": 25,
+      "pct_custodial": 64,
+      "pct_non_custodial": 26,
       "kyc_required": 55,
       "kyc_optional": 10,
-      "kyc_none": 28,
+      "kyc_none": 29,
       "pct_kyc_required": 59,
-      "median_fee_pct": 1,
+      "median_fee_pct": 1.0,
       "zero_platform_fee": 20,
       "fiat_settlement": 62,
-      "pct_fiat_settlement": 67,
-      "lightning": 18,
-      "verified": 65
+      "pct_fiat_settlement": 66,
+      "lightning": 19,
+      "verified": 66
     }
   },
   "gateways": [
@@ -1557,6 +1557,22 @@
       "notable": "Open-source Lightning accounts system with POS, checkout and paywall extensions",
       "verified": true,
       "source_url": "https://github.com/lnbits/lnbits",
+      "study_cohort": false
+    },
+    {
+      "name": "send21",
+      "url": "https://send21.io",
+      "fee_pct": 0.49,
+      "fee_note": "Tiered per payment: 0.49% under $10 down to 0.01% above $100,000; min $0.01, max $100; no subscription",
+      "custody": "non-custodial",
+      "kyc": "none",
+      "coins": 6,
+      "settlement_fiat": false,
+      "lightning": true,
+      "founded": 2026,
+      "notable": "Pay links and API; payer pays from own wallet straight to the receiver's wallet, priced in 161 fiat currencies",
+      "verified": true,
+      "source_url": "https://send21.io/pricing",
       "study_cohort": false
     }
   ]

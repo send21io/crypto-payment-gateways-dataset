@@ -1,6 +1,6 @@
 # Crypto Payment Gateways 2026: full table
 
-93 gateways, v1.4.0, updated 2026-10-07. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), attribution: [Shieldz](https://shieldz.cash). Canonical write-up: https://shieldz.cash/blog/custody-gap-crypto-payment-gateways
+94 gateways, v1.4.0, updated 2026-10-07. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), attribution: [Shieldz](https://shieldz.cash). Canonical write-up: https://shieldz.cash/blog/custody-gap-crypto-payment-gateways
 
 An asterisk on the fee marks rows where the fee could not be confirmed on an official pricing page (`verified=false`). `study` marks the 50-gateway cohort of the published August 2026 study.
 
@@ -33,6 +33,7 @@ An asterisk on the fee marks rows where the fee could not be confirmed on an off
 | [Heleket](https://heleket.com) | 0.4 | custodial | none | 15 | no | no | 2025 | no | Email-only signup, no corporate documents; launched 2025 |
 | [MaxelPay](https://www.maxelpay.com) | 0.4 | non-custodial | none | 300 | no | no | 2023 | no | No-KYC, own payout wallet, white-label |
 | [OxaPay](https://oxapay.com) | 0.4 | custodial | none | 20 | no | no | 2022 | yes | No-KYC email signup; Telegram-friendly |
+| [send21](https://send21.io) | 0.49 | non-custodial | none | 6 | no | yes | 2026 | no | Pay links and API; payer pays from own wallet straight to the receiver's wallet, priced in 161 fiat currencies |
 | [Copperx](https://copperx.io) | 0.5 | custodial | required | 5 | yes | no | 2022 | yes | Stablecoin-first; settles to 50+ fiat currencies |
 | [Crypto.com Pay](https://crypto.com/pay-merchant) | 0.5 | custodial | required | 20 | yes | no | 2019 | no | Shopify-integrated acceptance, multi-fiat settlement |
 | [Gate Pay](https://www.gate.com/pay) | 0.5 | custodial | required | 300 | yes | no | 2021 | no | Gate.io exchange merchant acceptance, 300+ coins |
